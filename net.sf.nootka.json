@@ -76,21 +76,6 @@
     },
 
     {
-      "name": "appdata",
-      "buildsystem": "simple",
-      "sources": [
-        {
-          "type": "file",
-          "path": "nootka.appdata.xml"
-        }
-      ],
-      "build-commands": [
-        "mkdir -p /app/share/appdata",
-        "cp nootka.appdata.xml /app/share/appdata"
-      ]
-    },
-
-    {
       "name": "nootka",
       "buildsystem": "cmake-ninja",
       "builddir": true,
@@ -101,21 +86,13 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://sourceforge.net/projects/nootka/files/Nootka-1.4.5/nootka-1.4.5-source.tar.bz2",
-          "sha256": "210371ffeb8f018564e1d07d935dee7f310316c67359ac40569cc74f3c3a5e16"
-        },
-        {
-          "type": "patch",
-          "path": "fix_aarch64_CXX_FLAGS.patch"
+          "url": "https://sourceforge.net/projects/nootka/files/Nootka-1.4.6/nootka-1.4.6-source.tar.bz2",
+          "sha256": "d4c2659b0dc070200f874de5c80a8ce2b855df68ab7b4e1165dc0d0de5b666f3"
         }
       ],
       "post-install": [
-        "mkdir -p /app/share/icons/hicolor/512x512/apps",
-        "mkdir -p /app/share/icons/hicolor/128x128/apps",
-        "mkdir -p /app/share/icons/hicolor/64x64/apps",
-        "cp /app/share/nootka/picts/nootka.png /app/share/icons/hicolor/64x64/apps",
-        "cp /app/share/nootka/picts/nootka.png /app/share/icons/hicolor/128x128/apps",
-        "cp /app/share/nootka/picts/nootka.png /app/share/icons/hicolor/512x512/apps"
+        "mkdir -p /app/share/appdata",
+        "cp /app/metainfo/nootka.appdata.xml /app/share/appdata"
       ],
       "cleanup": [
           "/share/doc",
