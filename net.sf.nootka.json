@@ -92,7 +92,7 @@
       ],
       "post-install": [
         "mkdir -p /app/share/appdata",
-        "cp /app/metainfo/nootka.appdata.xml /app/share/appdata"
+        "cp /app/share/metainfo/nootka.appdata.xml /app/share/appdata"
       ],
       "cleanup": [
           "/share/doc",
