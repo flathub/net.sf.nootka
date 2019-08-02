@@ -91,7 +91,11 @@
         }
       ],
       "post-install": [
+<<<<<<< HEAD
           "ln -s /app/share/nootka/lang /app/share/nootka/translations"
+=======
+          ln -s /app/share/nootka/lang /app/share/nootka/translations
+>>>>>>> 57272221536d3f0151308a5be61828033f1e8f9a
       ],
       "cleanup": [
           "/share/doc",
