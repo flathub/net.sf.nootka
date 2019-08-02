@@ -87,12 +87,11 @@
         {
           "type": "archive",
           "url": "https://sourceforge.net/projects/nootka/files/Nootka-1.4.6/nootka-1.4.6-source.tar.bz2",
-          "sha256": "c4e3c11e88bd3a037e6f7fc9040539c60a898c9608db737abdcb1e2471c359ec"
+          "sha256": "26b94b90065d11a47c9f6d091ebc2c1c449f4ef26202d203045199900b2e3514"
         }
       ],
       "post-install": [
-        "mkdir -p /app/share/appdata",
-        "cp /app/share/metainfo/nootka.appdata.xml /app/share/appdata"
+          ln -s /app/share/nootka/lang /app/share/nootka/translations
       ],
       "cleanup": [
           "/share/doc",
