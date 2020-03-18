@@ -86,8 +86,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://sourceforge.net/projects/nootka/files/Nootka-1.4.6/nootka-1.4.6-source.tar.bz2",
-          "sha256": "26b94b90065d11a47c9f6d091ebc2c1c449f4ef26202d203045199900b2e3514"
+          "url": "https://sourceforge.net/projects/nootka/files/Nootka-1.4.7/nootka-1.4.7-source.tar.bz2",
+          "sha256": "1d85a2970ddb51117b0a98df4d84ca9e9498fbd1d2b1c55bfa62931333a73cf9"
         }
       ],
       "post-install": [
