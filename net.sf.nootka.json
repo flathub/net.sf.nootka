@@ -1,7 +1,7 @@
 {
   "app-id": "net.sf.nootka",
   "runtime": "org.kde.Platform",
-  "runtime-version": "5.14",
+  "runtime-version": "5.15",
   "sdk": "org.kde.Sdk",
   "command": "nootka",
 
@@ -20,38 +20,7 @@
   ],
 
   "modules": [
-    {
-      "name": "fftw",
-      "rm-configure": true,
-      "config-opts": [
-        "--enable-shared", "--enable-float"
-      ],
-      "cleanup": [
-          "/bin",
-          "/share/info",
-          "/include",
-          "/share/man",
-          "/lib/cmake",
-          "/lib/debug",
-          "/lib/pkgconfig",
-          "*.a",
-          "*.la"
-      ],
-      "sources": [
-        {
-          "type": "archive",
-          "url": "http://www.fftw.org/fftw-3.3.7.tar.gz",
-          "sha256": "3b609b7feba5230e8f6dd8d245ddbefac324c5a6ae4186947670d9ac2cd25573"
-        },
-        {
-          "type": "script",
-          "commands": [
-            "autoreconf -fiv"
-          ],
-          "dest-filename": "autogen.sh"
-        }
-      ]
-    },
+    "shared-modules/linux-audio/fftw3f.json",
 
     {
       "name": "soundtouch",
