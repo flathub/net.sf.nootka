@@ -54,9 +54,10 @@
       ],
       "sources": [
         {
-          "type": "archive",
-          "url": "https://sourceforge.net/projects/nootka/files/Nootka-1.4.7/nootka-1.4.7-source.tar.bz2",
-          "sha256": "1d85a2970ddb51117b0a98df4d84ca9e9498fbd1d2b1c55bfa62931333a73cf9"
+          "type": "git",
+          "url": "https://www.opencode.net/seelook/nootka.git",
+          "tag": "Version_1.9.0",
+          "commit": "db1021fc9de6da7071032fe38f6f63c0a106efc6"
         }
       ],
       "post-install": [
