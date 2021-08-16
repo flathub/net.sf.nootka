@@ -55,8 +55,8 @@
         {
           "type": "git",
           "url": "https://www.opencode.net/seelook/nootka.git",
-          "tag": "v2.0.0",
-          "commit": "b6de7b6cbc904f2b5ecb461868f1c376b688efc5"
+          "tag": "v2.0.2",
+          "commit": "d06f80ee854fbc56cd01c367b6c462245b6147e3"
         }
       ],
       "post-install": [
