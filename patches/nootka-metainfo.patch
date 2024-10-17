@@ -1,0 +1,36 @@
+diff --git a/mime/nootka.appdata.xml b/mime/nootka.appdata.xml
+index b0c9a444..9877c585 100644
+--- a/mime/nootka.appdata.xml
++++ b/mime/nootka.appdata.xml
+@@ -7,7 +7,7 @@
+   <metadata_license>CC0-1.0</metadata_license>
+   <summary>Application to learn classical score notation</summary>
+   <project_license>GPL-3.0+</project_license>
+-
++  <launchable type="desktop-id">nootka.desktop</launchable>
+   <description>
+     <p>
+       ​Application helps understand the basics of music notation reading and practicing playing musical scores.
+@@ -35,19 +35,11 @@
+   <screenshots>
+     <screenshot type="default">
+       <caption>Main window - guitar</caption>
+-      <image>https://nootka.sourceforge.io/wp-content/uploads/2021/05/Guitar.png</image>
++      <image>https://a.fsdn.com/con/app/proj/nootka/screenshots/main_window.png/max/max/1</image>
+     </screenshot>
+-    <screenshot type="default">
++    <screenshot>
+       <caption>Main window, single note - bandoneon</caption>
+-      <image>https://nootka.sourceforge.io/wp-content/uploads/2021/05/Bando.png</image>
+-    </screenshot>
+-    <screenshot type="default">
+-      <caption>Playing bass guitar exercise</caption>
+-      <image>https://nootka.sourceforge.io/wp-content/uploads/2021/05/Bass.png</image>
+-    </screenshot>
+-    <screenshot type="default">
+-      <caption>Saxophone and random melody</caption>
+-      <image>https://nootka.sourceforge.io/wp-content/uploads/2021/05/Sax.png</image>
++      <image>https://a.fsdn.com/con/app/proj/nootka/screenshots/bando.png/max/max/1</image>
+     </screenshot>
+   </screenshots>
+ 
