@@ -1,7 +1,7 @@
 {
   "app-id": "net.sf.nootka",
   "runtime": "org.kde.Platform",
-  "runtime-version": "5.15-23.08",
+  "runtime-version": "5.15-25.08",
   "sdk": "org.kde.Sdk",
   "command": "nootka",
 
@@ -53,6 +53,7 @@
       "buildsystem": "cmake-ninja",
       "builddir": true,
       "config-opts": [
+          "-DCMAKE_POLICY_VERSION_MINIMUM=3.5",
           "-DFFTW3_INCLUDE_DIRS=/app/include",
           "-DFFTW3_LIBRARIES=/app/lib/libfftw3f.so"
       ],
